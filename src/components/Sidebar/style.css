@@ -1,0 +1,41 @@
+.VideSide{
+    width: 220px;
+    height: 100vh;
+}
+.sidebar{
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto;
+    padding: 30px 20px;
+    background-color: var(--black-gray);
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    color: rgba(255, 255, 255, 0.8);
+}
+.sidebar img{
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.sidebar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sidebar li h3{
+    cursor: pointer;
+    padding: 6px;
+    font-size: 23px;
+}
+.sidebar li h3:hover{
+    color: white;
+}
+.sidebarTitle{
+    margin-top: auto;
+    margin-bottom: 5px;
+}

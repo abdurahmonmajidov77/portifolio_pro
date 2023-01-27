@@ -1,0 +1,24 @@
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.About img{
+    width: 250px;
+    margin: 20px;
+}
+.About h1{
+    font-size: 6vh;
+    font-weight: 500;
+    margin: 0 25px;
+}
+.About p{
+    font-weight: 300;
+    opacity: .8;
+    font-size: 4vh;
+    margin: 10px 30px;
+    max-width: 500px;
+    width: fit-content;
+}
