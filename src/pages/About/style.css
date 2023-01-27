@@ -6,19 +6,19 @@
     width: 100%;
 }
 .About img{
-    width: 250px;
+    width: 35%;
     margin: 20px;
 }
 .About h1{
-    font-size: 6vh;
+    font-size: 3.5vw;
     font-weight: 500;
-    margin: 0 25px;
+    margin: 0 2vw;
 }
 .About p{
     font-weight: 300;
     opacity: .8;
-    font-size: 4vh;
-    margin: 10px 30px;
-    max-width: 500px;
+    font-size: 2vw;
+    margin: 1vw 2.4vw;
+    max-width: 50vw;
     width: fit-content;
 }

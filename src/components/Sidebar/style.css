@@ -31,9 +31,11 @@
     cursor: pointer;
     padding: .3vw;
     font-size: 2vw;
+    color: white;
+    opacity: .8;
 }
 .sidebar li h3:hover{
-    color: white;
+    opacity: 1;
 }
 .sidebarTitle{
     margin-top: auto;

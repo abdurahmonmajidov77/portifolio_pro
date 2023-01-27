@@ -1,21 +1,20 @@
 .Home{
-    padding: 3vw;
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    flex-direction: column;
     width: 100%;
+    padding: 3vw;
+  }
+  .HomeTexts{
     text-align: center;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
   }
   .Home h1{
     font-size: 4vw;
     font-weight: 500;
     line-height: 3vw;
-    display: inline-block;
-    display: flex;
   }
   .Home h2{
-    font-size: 3.5vh;
+    font-size: 2vw;
     font-weight: 300;
   }
   .Home .HIcons{
@@ -24,13 +23,18 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: .1%;
+    margin-top: .1vw;
   }
   .HIcons i{
-    font-size: 4.5vh;
-    margin: 1%;
+    font-size: 2.5vw;
+    margin: .5vw;
     color: var(--gray);
   }
   .HIcons i:hover{
     color: black;
+  }
+  .HIcons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
