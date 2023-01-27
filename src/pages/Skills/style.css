@@ -1,0 +1,66 @@
+.Skills{
+    width: 100%;
+    overflow-y: scroll;
+}
+.Skills ul{
+    width: 100%;
+}
+.Skills ul li{
+    width: 50%;
+    display: flex;
+    padding: .8vw;
+    background-color: var(--card);
+    border-radius: 1vw;
+    margin: .5vw;
+    color: white;
+}
+.Skills img{
+    width: 8vh;
+}
+.SkillBox{
+    width: 100%;
+    padding: 0.6vw;
+}
+.SkillBox h4{
+    font-size: 1.4vw;
+    margin-bottom: auto;
+}
+.SkillBoxInto{
+    width: 90%;
+    height: 2vh;
+    display:inline-block;
+    background-color: white;
+    border-radius: 1vw;
+    margin-top: auto;
+    padding: 0.3vw;
+    margin-top: .4vw;
+}
+.SkillInto{
+    background-color: var(--black-gray);
+    height: 1vh;
+    border-radius: 1vw;
+}
+.SkillsKeyUp1{
+    width: 95%;
+}
+.SkillsKeyUp2{
+    width: 90%;
+}
+.SkillsKeyUp3{
+    width: 80%;
+}
+.SkillsKeyUp4{
+    width: 65%;
+}
+.SkillsKeyUp5{
+    width: 74%;
+}
+.SkillsKeyUp6{
+    width: 75%;
+}
+.SkillsKeyUp7{
+    width: 85%;
+}
+.SkillsKeyUp8{
+    width: 48%;
+}

@@ -1,13 +1,13 @@
 .About{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;
     width: 100%;
 }
 .About img{
-    width: 35%;
-    margin: 20px;
+    width: 28vw;
+    margin: 2vw;
 }
 .About h1{
     font-size: 3.5vw;
@@ -19,6 +19,6 @@
     opacity: .8;
     font-size: 2vw;
     margin: 1vw 2.4vw;
-    max-width: 50vw;
+    max-width: 36vw;
     width: fit-content;
 }
