@@ -3,6 +3,7 @@ import './style.css'
 function Home() {
   return (
     <div className="Home">
+      <div className="HomeTexts">
         <h1>Abdurahmon Majidov</h1>
         <h2>Fornt-End Devloper</h2>
         <div class="HIcons">
@@ -12,6 +13,7 @@ function Home() {
             <a href="https://github.com/abdurahmonmajidov77"></a><i class="fa-brands fa-github"></i>
             <a href=""></a><i class="fa-brands fa-facebook"></i>
         </div>
+      </div>
     </div>
   );
 }

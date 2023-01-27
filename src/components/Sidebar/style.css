@@ -1,5 +1,5 @@
 .VideSide{
-    width: 220px;
+    width: 35%;
     height: 100vh;
 }
 .sidebar{
@@ -9,17 +9,17 @@
     flex-direction: column;
     align-items: center;
     margin-right: auto;
-    padding: 30px 20px;
+    padding: 3vw 2vw;
     background-color: var(--black-gray);
-    width: 200px;
+    width: 15%;
     height: 100vh;
     position: fixed;
     color: rgba(255, 255, 255, 0.8);
 }
 .sidebar img{
-    width: 150px;
+    width: 100%;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 2vw;
 }
 .sidebar ul{
     display: flex;
@@ -29,13 +29,16 @@
 }
 .sidebar li h3{
     cursor: pointer;
-    padding: 6px;
-    font-size: 23px;
+    padding: .3vw;
+    font-size: 2vw;
 }
 .sidebar li h3:hover{
     color: white;
 }
 .sidebarTitle{
     margin-top: auto;
-    margin-bottom: 5px;
+    margin-bottom: .1vw;
+}
+.sidebar h4{ 
+    font-size: 1vw;
 }
